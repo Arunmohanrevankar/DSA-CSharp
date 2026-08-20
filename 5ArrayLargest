@@ -1,0 +1,16 @@
+using System;
+public class DSA
+{
+    public static void Main(string[] args)
+    {
+       int[] Array = {40,3,1,78,98,100} ;
+       Console.WriteLine("The Given Array : {"+String.Join(",",Array)+"}");
+       int Large = Array[0];
+       foreach (int element in Array)
+       {
+           if (element > Large)
+           Large = element;
+       }
+       Console.WriteLine("The Largest in Array is : "+Large);
+    }
+}
