@@ -24,7 +24,7 @@ public class DSA
         }
 
         Console.WriteLine(
-            "The Sorted Array is : {" + String.Join(",", Array) + "}"
+            "The Sorted Array in Ascending : {" + String.Join(",", Array) + "}"
         );
     }
 }
