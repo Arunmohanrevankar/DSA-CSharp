@@ -5,9 +5,9 @@ public class DSA
     {
         int[] Array = { 40, 3, 1, 78, 98 };
         Console.WriteLine("The Original Array is : {" + String.Join(",", Array) + "}");
-        for (int i = 0; i < Array.Length - 1; i++)
+        for (int i = 0; i < Array.Length; i++)
         {
-            for (int j = 0; j < Array.Length - 1 - i; j++)
+            for (int j = 0; j < i ; j++)
             {
                 if (Array[j] < Array[j + 1])
                 {
